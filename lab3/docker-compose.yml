@@ -8,7 +8,6 @@ services:
       - ./src:/app/src
       - ./public/assets:/app/public/assets
       - /app/node_modules
-    
     ports:
       - 3000:3000
     stdin_open: true
